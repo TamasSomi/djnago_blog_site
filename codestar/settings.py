@@ -29,8 +29,8 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-# ALLOWED_HOSTS = ['8000-tamassomi-djnagoblogsit-olji448p1wn.ws-eu104.gitpod.io']
-ALLOWED_HOSTS = ['TamasSomi.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['8000-tamassomi-djnagoblogsit-olji448p1wn.ws-eu104.gitpod.io']
+# ALLOWED_HOSTS = ['TamasSomi.herokuapp.com', 'localhost']
 
 # Application definition
 
