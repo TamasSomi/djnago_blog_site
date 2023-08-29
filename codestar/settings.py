@@ -29,10 +29,13 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [
+jls_extract_var = [
     '8000-tamassomi-djnagoblogsit-olji448p1wn.ws-eu104.gitpod.io',
     'TamasSomi.herokuapp.com',
-    'localhost']
+    'localhost',
+    'django-blog-site-ts-2788d0bd9c3d.herokuapp.com',
+    ]
+ALLOWED_HOSTS = jls_extract_var
 # ALLOWED_HOSTS = ['django-blog-site-ts-2788d0bd9c3d.herokuapp.com']
 
 
